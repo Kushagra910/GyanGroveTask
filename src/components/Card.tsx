@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ idx, ele }) => {
   return (
     <div key={idx} className="w-full h-full font-inter">
       <div className=" h-full relative">
-        <img src={`${thumbnailUrl}`} width={400} className=" object-cover rounded-lg bg-transparent border-borderColor w-[80%] md:w-full "></img>
+        <img src={`${thumbnailUrl}`} width={400} loading="lazy" className=" dobject-cover rounded-lg bg-transparent border-borderColor w-[80%] md:w-full "></img>
         <div className="w-11/12 leading-1 text-[12px] md:text-[14px] font-medium mx-auto absolute text-white  flex flex-col bottom-3  md:bottom-4 md:left-0  left-1  right-1 md:right-0 bg-backgroundColor bg-opacity-0 p-2 md:p-4">
           <div className="w-[80%] md:w-full flex justify-between">
             <div>{ele.eventName}</div>

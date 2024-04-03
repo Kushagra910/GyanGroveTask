@@ -74,6 +74,7 @@ const EndCards: React.FC = () => {
             <div className="relative w-full">
               <img
                 src={getDirectImageUrl(event.imgUrl)}
+                loading="lazy"
                 alt={event.eventName}
                 width={400}
                 className="object-cover"
