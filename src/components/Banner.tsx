@@ -31,7 +31,7 @@ const Banner = () => {
   return (
     <div
       className="w-full h-[70%] md:h-full bg-cover text-white relative font-inter bg-transparent mb-10"
-      style={{ backgroundImage: "url('/src/assets/Banner.svg')" }}
+      style={{ backgroundImage: "url('/Banner.svg')" }}
     >
       <div className="flex flex-col pt-20 md:pt-36 items-center h-full ">
         <h1 className="text-2xl md:text-6xl max-w-[300px] md:max-w-[1100px] md:leading-normal leading-relaxed text-center">
